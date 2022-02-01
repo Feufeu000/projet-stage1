@@ -1,0 +1,122 @@
+body{
+    background-color:#ED8E8E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color:#5E5C5C;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration-line: underline;
+    
+}
+p.entreprise-desc{
+    color:#5E5C5C;
+    text-align:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 225px;
+    font-style: italic;
+    font-size: 20px;
+}
+button.demande{
+    background-color:#A62929;
+    color:white;
+    width:275px;
+    height:67px;
+    border:none;
+    border-radius:5px;
+    margin-left:230px;
+    margin-top:180px;
+    font-size:24px;
+    
+}
+button.info{
+    background-color:#5E5C5C;
+    color:white;
+    width:275px;
+    height:67px;
+    border:none;
+    border-radius:5px;
+    margin-left:429px;
+    margin-top:180px;
+    font-size:24px;
+}
+a{
+    text-decoration-line: none;
+    color:white;
+}
+body.info{
+    background-color:#ED8E8E;
+    height:1000px;
+}
+p.nom{
+    margin-left: 270px;
+    margin-top: 130px;
+    font-size: 30px;
+}
+
+p.prénom{
+    margin-right:-270px;
+    margin-top: 130px;
+    font-size:30px;}
+div.nomadress{
+margin-left:200px;
+}
+input{
+    height:30px;
+    border:none;
+    border-radius:5px;
+    width:250px;
+}
+form.form{
+    display:flex;
+    flex-direction: column;
+}
+
+input.submit{
+    margin-top:20px;
+}
+div.nom{
+    margin-left:400px;
+    margin-top:33px;
+}
+div.prenom{
+    margin-left:800px;
+    margin-top:-51px;
+}
+div.adresse{
+    margin-left:400px;
+    margin-top:10px;
+}
+div.numero{
+    margin-left:800px;
+    margin-top:-51px;
+}
+input.submit{
+    margin-left:600px;
+}
+div.all{
+    height: 10000px;
+}
+
+textarea.message{
+    margin-left:540px ;
+    height:120px;
+    width:360px;
+    border: none;
+    border-radius: 5px;
+}
+label.message{
+    margin-left:540px;
+}
+
+p.red{
+    background-color: #A62929;
+    color:#A62929;
+    margin-top: 160px;
+    margin-left: 500px;
+    margin-right: 500px;
+    
+}
+
+
+
