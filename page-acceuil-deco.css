@@ -7,6 +7,12 @@ h1{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration-line: underline;
+    border:2px solid;
+    border-color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 9px;
+    padding-bottom: 9px;
     
 }
 p.entreprise-desc{
@@ -24,8 +30,6 @@ button.demande{
     height:67px;
     border:none;
     border-radius:5px;
-    margin-left:230px;
-    margin-top:180px;
     font-size:24px;
     
 }
@@ -36,8 +40,6 @@ button.info{
     height:67px;
     border:none;
     border-radius:5px;
-    margin-left:429px;
-    margin-top:180px;
     font-size:24px;
 }
 a{
@@ -73,40 +75,43 @@ form.form{
 }
 
 input.submit{
-    margin-top:20px;
+    /* margin-top:20px; */
+    display: flex;
+    margin: auto;
 }
 div.nom{
-    margin-left:400px;
-    margin-top:33px;
+    /* margin-left:400px; */
+    /* margin-top:33px; */
 }
 div.prenom{
-    margin-left:800px;
-    margin-top:-51px;
+    /* margin-left:800px; */
+    /* margin-top:-51px; */
 }
 div.adresse{
-    margin-left:400px;
-    margin-top:10px;
+    /* margin-left:400px; */
+    /* margin-top:10px; */
 }
 div.numero{
-    margin-left:800px;
-    margin-top:-51px;
+    /* margin-left:800px; */
+    /* margin-top:-51px; */
 }
 input.submit{
-    margin-left:600px;
+    /* margin-left:600px; */
+    width: 70px;
 }
 div.all{
     height: 10000px;
 }
 
 textarea.message{
-    margin-left:540px ;
+    /* margin-left:540px ; */
     height:120px;
     width:360px;
     border: none;
     border-radius: 5px;
 }
 label.message{
-    margin-left:540px;
+    /* margin-left:540px; */
 }
 
 p.red{
@@ -117,6 +122,149 @@ p.red{
     margin-right: 500px;
     
 }
+div.rectangle{
+    background-color:#A62929;
+    height:215px;
+    width:463px;
+    margin: 85px auto;
+}
+p.client1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+div.gris{
+    margin-left: 50px;
+    display: flex;
+    text-align:start;
+}
+
+div.client1{
+    color: white;
+    padding-left: 30px;
+    line-height: 28px;
+}
+h4.nom1{
+    margin-left: 140px;
+}
+h4.prenom1{
+    margin-left: 140px;
+    margin-top:-8px
+}
+h4.ville1{
+    margin-left: 140px;
+    margin-top:-8px
+}
+h4.age1{
+    margin-left: 140px;
+    margin-top:-8px
+}
+p.nom1{
+    margin-left: 190px;
+    margin-top: -139px;
+}
+p.prenom1{
+    margin-left: 225px;
+    margin-top:-1px;
+width:500px;
+}
+p.ville1{
+    margin-left: 200px;
+    margin-top:-4px
+}
+p.age1{
+    margin-left: 185px;
+    margin-top:-3px;
+    width:100px;
+
+}
+div.buttons{
+    margin: 100px auto;
+    display:flex;
+    justify-content: space-evenly;
+}
+div.formulaire1{
+  margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+}
+ div.formulaire1 label{
+    padding: 12px 0 6px 0;
+}
 
 
 
+div.formulaire2{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column; 
+}
+div.formulaire2 label{
+    padding: 12px 0 6px 0;
+}
+
+div.message{
+    margin: auto;
+    padding : 12px 0 6px 0;
+}
+div.formulaire0{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+img{
+    width: 130px;
+    height: 130px;
+
+}
+span.information{
+    font-size: 16px;
+    font-weight:bold;
+    line-height: 19px;
+    line-height: 100%;
+}
+span.reponse{
+font-size: 16px;
+font-weight:500px;
+line-height: 19px;
+line-height: 100%;
+}
+.themecontainer{
+    position: fixed;
+    top:0;
+}
+.theme{
+    height:30px;
+    width:30px;
+    cursor: pointer;
+    transition: 5s;
+}
+#dark{
+    background-color: #333333;
+    border:2px;
+    border-color: black;
+    border-width: 20px;
+}
+#light{
+    background-color: #ED8E8E;
+}
+.darktheme{
+    background-color:#333333;
+    color: #5E5C5C;
+}
+.lighttheme{
+    background-color: #ED8E8E;
+    color: white;
+}
+
+
+@media screen and (max-width: 560px){
+    body.info{
+        align-items: center;
+    }
+    h1{
+        text-align: center;
+    }
+
+}
