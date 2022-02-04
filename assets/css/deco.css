@@ -5,20 +5,19 @@ body{
 h1{
     color:#5E5C5C;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration-line: underline;
+    /* margin-left: 25%; */
+    /* margin-right: 25%; */
+}
+span.big-title{
     border:2px solid;
     border-color: white;
-    margin-left: 25%;
-    margin-right: 25%;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    
+    padding: 9px;
+
 }
 p.entreprise-desc{
     color:#5E5C5C;
     text-align:center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 225px;
     font-style: italic;
     font-size: 20px;
@@ -46,10 +45,7 @@ a{
     text-decoration-line: none;
     color:white;
 }
-body.info{
-    background-color:#ED8E8E;
-    height:1000px;
-}
+
 p.nom{
     margin-left: 270px;
     margin-top: 130px;
@@ -77,10 +73,9 @@ form.form{
 input.submit{
     display: flex;
     margin: auto;
-}
+    /* width: 80px; */
+    width: auto;
 
-input.submit{
-    width: 70px;
 }
 div.all{
     height: 10000px;
@@ -93,7 +88,6 @@ textarea.message{
     border: none;
     border-radius: 5px;
 }
-
 
 p.red{
     background-color: #A62929;
@@ -221,23 +215,32 @@ line-height: 100%;
     cursor: pointer;
     transition: 5s;
 }
+div.classList{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
 #dark{
     background-color: #333333;
-    border:2px;
-    border-color: black;
-    border-width: 20px;
+    border:2px solid white;
+    color: white;
+    /* border-color: black; */
 }
 #light{
     background-color: #ED8E8E;
+    border: 2px solid white;
 }
 .darktheme{
     background-color:#333333;
+    color: white;
 }
 .lighttheme{
     background-color: #ED8E8E;
     color: white;
 }
-
+.back{
+    width: 20px;
+}
 
 @media screen and (max-width: 560px){
     body.info{
@@ -255,8 +258,10 @@ line-height: 100%;
         margin-left: 20%;
         flex-direction: column;
     }
-}
-@media screen and (min-width: 560px){
-    
-
+    div.rectangle{
+        width:90%;
+    }
+    div.gris{
+        margin-left:10px;
+    }
 }

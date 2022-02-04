@@ -1,5 +1,5 @@
 const theme = document.querySelectorAll('.theme')
-const dark = document.querySelector('.dark')
+
 
 theme.forEach((item) => {
     item.addEventListener('click', (e) => {

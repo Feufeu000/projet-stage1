@@ -10,30 +10,36 @@
 </head>
 
 <body>
-    <h1>Mon premier formulaire</h1>
+   <a href="../../index.html"><i class="fas fa-arrow-left fa-3x"></i></a>
+    <h1><span class="big-title">Mon premier formulaire</span></h1>
     <form class="form">
         <div class=formulaire0>
             <div class=formulaire1>
                 <label for="fname" class="nom">Nom:</label>
-                <input type="text" id="fname" name="fname">
+                <input type="text" id="fname" name="fname" placeholder="Doe" required>
                 <label for="adress">Prénom:</label>
-                <input type="text" id="lname" name="lname">
+                <input type="text" id="lname" name="lname" placeholder="John" required>
             </div>
             <div class="formulaire2">
                 <label for="aname">Adresse_mail:</label>
-                <input type="text" id="aname" name="aname">
+                <input type="email" id="aname" name="aname" placeholder="JohnDoe@gmail.com" required>
                 <label for="nname">Numéro_de_téléphone:</label>
-                <input type="text" id="nname" name="nname">
+                <input type="tel" pattern="[0-9]{10}" id="nname" name="nname" placeholder="0645851236" required>
             </div>
         </div>
+        <div class="message">
+            <label for="message" class="message">Message:</label><br>
+            <textarea id="message" name="message" class="message" placeholder="Bla bla bla bla bla bla bla bla" required></textarea>
         </div>
-        <div class=message>
-            <label for=message class=message>Message:</label><br>
-            <textarea id="message" name="message" class=message></textarea>
         </div>
-        </div>
-        <input type="submit" value="Submit" class=submit>
+        <input type="submit" value="ENVOYER" class="submit">
     </form>
+    <div class="classList">
+        <div class="theme" id="dark"></div>
+        <div class="theme" id="light"></div>
+    </div>
+    <script src="../js/javascript.js"></script>
+    <script src="https://kit.fontawesome.com/85f6025f98.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
