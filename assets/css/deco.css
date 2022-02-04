@@ -75,28 +75,11 @@ form.form{
 }
 
 input.submit{
-    /* margin-top:20px; */
     display: flex;
     margin: auto;
 }
-div.nom{
-    /* margin-left:400px; */
-    /* margin-top:33px; */
-}
-div.prenom{
-    /* margin-left:800px; */
-    /* margin-top:-51px; */
-}
-div.adresse{
-    /* margin-left:400px; */
-    /* margin-top:10px; */
-}
-div.numero{
-    /* margin-left:800px; */
-    /* margin-top:-51px; */
-}
+
 input.submit{
-    /* margin-left:600px; */
     width: 70px;
 }
 div.all{
@@ -110,9 +93,7 @@ textarea.message{
     border: none;
     border-radius: 5px;
 }
-label.message{
-    /* margin-left:540px; */
-}
+
 
 p.red{
     background-color: #A62929;
@@ -251,7 +232,6 @@ line-height: 100%;
 }
 .darktheme{
     background-color:#333333;
-    color: #5E5C5C;
 }
 .lighttheme{
     background-color: #ED8E8E;
@@ -266,5 +246,17 @@ line-height: 100%;
     h1{
         text-align: center;
     }
+    div{
+        size: 1%;
+    }
+    div.formulaire0{
+        width: 1px;
+        align-content: center;
+        margin-left: 20%;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 560px){
+    
 
 }
